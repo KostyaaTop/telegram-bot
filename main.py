@@ -294,7 +294,7 @@ async def free_guide(callback: CallbackQuery):
         reply_markup=kb(
             [
                 [(f"⚡ Задать ценность в {GUIDE_PRICE_RUB} ₽", "pay_guide")],
-                [("Забыть завтра же", "free_guide_confirm")],
+                [(" Забыть завтра же (🎁Бесплатно)", "free_guide_confirm")],
             ]
         ),
     )
