@@ -81,7 +81,7 @@ async def send_guide(chat_id):
         ]
     )
 )
-        )
+        
     else:
         await bot.send_message(
             chat_id,
