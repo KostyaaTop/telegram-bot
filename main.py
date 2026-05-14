@@ -75,7 +75,7 @@ async def send_guide(chat_id):
             [
                 InlineKeyboardButton(
                     text="☁️ Открыть на Яндекс Диске",
-                    url="https://disk.yandex.ru/..."
+                    url="https://disk.yandex.ru/i/QUbXKTmlzzp07A"
                 )
             ]
         ]
